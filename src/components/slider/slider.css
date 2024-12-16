@@ -1,0 +1,32 @@
+.carousel-caption {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1c5792;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  bottom: 20%;
+  text-transform: uppercase;
+  width: 700px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+.carousel-item img {
+  width: 100%; /* تملأ العرض بالكامل */
+  height: 100vh; /* تغطي كامل الشاشة عموديًا */
+  object-fit: cover; /* لتغطية الصورة وعدم تغيير نسبتها */
+}
+
+.carousel-item h3 {
+  margin-top: 20px;
+  font-size: 40px;
+}
+img {
+  size: 100px;
+}
+.carousel-inner {
+  width: 100%; /* تأكد أن السلايدر يملأ العرض بالكامل */
+  height: 100vh; /* تأكد من أن السلايدر يملأ الشاشة عموديًا */
+}

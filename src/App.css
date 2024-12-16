@@ -1,5 +1,5 @@
 #root {
-  max-width: 1980px !important;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -10,6 +10,12 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
 @keyframes logo-spin {
@@ -33,10 +39,4 @@
 
 .read-the-docs {
   color: #888;
-}
-.calendars-container {
-  display: flex; /* جعل العناصر تظهر جنبًا إلى جنب */
-  justify-content: space-around; /* محاذاة العناصر بشكل متساوي */
-  align-items: flex-start; /* محاذاة العناصر إلى الأعلى */
-  gap: 20px; /* إضافة مسافة بين العناصر */
 }
