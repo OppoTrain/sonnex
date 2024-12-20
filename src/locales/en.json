@@ -1,0 +1,57 @@
+{
+  "slider": {
+    "caption1": "You Can Be Yourself Every Day",
+    "caption2": "For Each of Us Just Bella"
+  },
+
+  "footer": {
+    "ourBrands": "OUR BRANDS",
+    "brandsList": [
+      "Bella Perfecta Ultra",
+      "Bella Perfecta Pure",
+      "Bella BiO based",
+      "Bella Herbs",
+      "Bella Ideale",
+      "Bella Panty Intima",
+      "Bella Medica",
+      "Bella for Teens",
+      "Bella Panty"
+    ],
+    "ourProducts": "OUR PRODUCTS",
+    "productsList": [
+      "Reusable products",
+      "bella BiO based pads",
+      "bella BiO based pantyliners",
+      "Bella for moms",
+      "Classic sanitary pads",
+      "Ultra-thin sanitary pads",
+      "Sanitary pads with herbal extracts",
+      "Sanitary pads for teenagers",
+      "Tampons"
+    ],
+    "moreProducts": "MORE PRODUCTS",
+    "moreProductsList": [
+      "Ultra-thin pantyliners",
+      "Pantyliners with herbal extracts",
+      "Pantyliners for teenagers",
+      "Pantyliners with organic cotton",
+      "Bladder control pads",
+      "Control pants",
+      "Wet wipes",
+      "Cotton products",
+      "Paper products"
+    ],
+    "tools": "TOOLS",
+    "toolsList": ["Period calculator", "Ovulation calculator", "Tips"],
+    "aboutUs": "ABOUT US",
+    "aboutUsList": [
+      "Contact",
+      "Information on personal data",
+      "Legal disclaimer",
+      "Cookies policy",
+      "Why Bella?"
+    ],
+    "cookieMessage": "Our website uses so-called 'cookies' files to improve the service utility and to compile visitor statistics. By using the service, you agree to",
+    "cookiePolicy": "cookie policy"
+  }
+}

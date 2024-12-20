@@ -1,0 +1,72 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1450px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 60px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.icon {
+  box-shadow: none;
+  outline: none;
+}
+.flag-icon {
+  width: 20px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 8px; /* Space between the flag and the text */
+}
+
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.logo {
+  width: 150px;
+  height: 112px;
+  margin-top: -10px !important;
+}
+
+.icon {
+  font-size: 35px;
+  cursor: pointer;
+  color: rgb(43, 40, 39);
+}
+
+.button {
+  margin-right: 50px;
+  padding: 10px 20px;
+  border: 1.6px solid rgb(43, 40, 39) !important;
+  background-color: white;
+  color: rgb(44, 43, 41);
+  border: none;
+  font-family: brandon-grotesque, sans-serif;
+  cursor: pointer;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  color: #1c5792;
+  border-color: #1c5792 !important;
+}
