@@ -1,0 +1,83 @@
+footer {
+  background-color: #f8f9fa; /* لون خلفية أفتح */
+  color: #212529; /* لون نص داكن قليلاً */
+  padding: 40px 60px; /* حشوة الفوتر */
+  font-family: Arial, sans-serif;
+  text-align: left;
+  width: 100%; /* الفوتر يأخذ عرض كامل الصفحة */
+  box-sizing: border-box; /* الحشوات تُحتسب ضمن العرض */
+  position: relative; /* لضمان أن الفوتر يبقى في الأسفل */
+  margin-top: auto; /* تأكد من أن الفوتر في أسفل الصفحة */
+}
+
+.footer[dir="rtl"] {
+  text-align: right;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px; /* زيادة المسافة بين الأقسام بشكل متناسق */
+}
+
+.footer-section {
+  flex: 1; /* السماح للأقسام بأخذ مساحة متساوية */
+  min-width: 180px; /* تحسين عرض الأقسام على الشاشات الصغيرة */
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section h4 {
+  font-weight: bold;
+  margin-bottom: 10px; /* تقليل المسافة بين العنوان والمحتوى */
+  font-size: 18px; /* حجم خط أنسب */
+  color: #495057;
+  text-transform: uppercase;
+  border-bottom: 2px solid #495057;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0; /* تقليل المسافات الفارغة */
+}
+
+.footer-section ul li {
+  line-height: 1.6;
+  font-size: 14px;
+  color: #495057;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li:hover {
+  color: #6c757d; /* لون مختلف عند التحويم */
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px; /* تقليل المسافة بين الأقسام السفلية */
+  font-size: 12px;
+  color: #6c757d;
+  padding: 10px 0;
+  border-top: 1px solid #dee2e6;
+}
+
+.footer-bottom p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.footer-bottom a {
+  color: #007bff; /* لون أزرق لرابط أكثر وضوحًا */
+  text-decoration: none; /* إزالة التسطير */
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #0056b3; /* لون أزرق أغمق عند التحويم */
+}

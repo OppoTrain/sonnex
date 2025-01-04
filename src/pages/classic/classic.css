@@ -1,0 +1,25 @@
+body {
+  background-color: #ffffff; /* لون خلفية فاتح */
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #ffffff; /* خلفية البطاقة */
+}
+
+.text-justify {
+  text-align: justify; /* تنسيق النص بمحاذاة كاملة */
+}
+
+.text-primary {
+  color: #007bff; /* لون أزرق للنص */
+}
+
+.container {
+  max-width: 800px; /* عرض مناسب للمحتوى */
+}
+
+p {
+  font-size: 1.1rem; /* تكبير حجم النص */
+  line-height: 1.6; /* تحسين المسافة بين الأسطر */
+}
