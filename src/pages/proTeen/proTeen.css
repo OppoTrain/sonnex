@@ -1,0 +1,32 @@
+body {
+  background-color: #ffffff;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.container {
+  max-width: 800px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.product-image {
+  max-width: 100%; /* جعل الصورة تستجيب */
+  height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+  border-radius: 8px; /* زوايا مستديرة للصورة */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للصورة */
+}

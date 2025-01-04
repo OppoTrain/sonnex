@@ -1,0 +1,52 @@
+/* تنسيق العنوان الرئيسي */
+#header h1 {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 40px; /* المسافة بين العنوان والفقرة التي تحته */
+  text-align: left; /* محاذاة العنوان لليسار */
+  padding-left: 20px; /* إضافة مسافة صغيرة من اليسار */
+}
+
+/* تنسيق الفقرات */
+.exercise-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding-left: 20px; /* مسافة بين النصوط والطرف */
+  padding-right: 20px; /* مسافة من الطرف الآخر */
+  margin-bottom: 20px; /* مسافة بين الفقرات */
+  border-left: 3px solid #ff66b2; /* خط زهري رفيع على يسار الفقرة */
+  text-align: justify; /* محاذاة الفقرة بطريقة طبيعية (بدون توسيط آخر سطر) */
+}
+
+/* تنسيق النص تحت العنوان الرئيسي */
+.special-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ff66b2; /* لون زهري للنصوص القوية */
+  font-style: italic; /* إضافة نمط مائل لجعل النص أكثر تميزًا */
+  text-align: center; /* محاذاة النص في المنتصف */
+  margin: 20px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px; /* إضافة حواف دائرية */
+  padding: 15px; /* إضافة حشوة للفقرة */
+}
+
+/* تنسيق العناوين */
+h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 20px;
+  padding-left: 20px; /* محاذاة العناوين لليسار */
+}
+
+/* تنسيق أقسام التمرين */
+.exercise-section {
+  margin-bottom: 50px;
+}
+
+/* تنسيق النصوص القوية */
+strong {
+  font-weight: bold;
+  color: #ff66b2; /* لون زهري للنصوص القوية */
+}

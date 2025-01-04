@@ -1,0 +1,46 @@
+/* General Body Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff !important;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header Section */
+#header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#header h1 {
+  font-size: 4rem !important;
+  font-weight: bold;
+  color: #2c3e50; /* لون غامق للأناقة */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px; /* مسافة تحت النص */
+  border-bottom: 4px solid #ffccd5; /* خط تحت العنوان */
+  display: inline-block;
+  padding-top: 20px; /* مسافة فوق النص */
+}
+
+/* Card Container */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px; /* مسافة بين الكروت */
+  margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #header h1 {
+    font-size: 2rem; /* حجم خط أصغر للشاشات الصغيرة */
+  }
+}
