@@ -1,0 +1,63 @@
+/* تنسيق الصفحة */
+.tabs-page {
+  display: flex;
+  flex-direction: column; /* ترتيب العناصر بشكل عمودي */
+  font-family: Arial, sans-serif;
+  align-items: center; /* توسيط العناصر أفقيًا */
+}
+
+/* تنسيق الجملة قبل التبويبات */
+.before-content {
+  margin: 20px 0; /* مسافة حول النص */
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+
+/* تنسيق التبويبات */
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* مسافة بين الأزرار */
+  padding: 10px 0;
+  background-color: #fff;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px; /* مسافة أسفل التبويبات */
+}
+
+/* زر التبويب */
+.tab-button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    color 0.3s ease,
+    border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-button.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+.tab-button:hover {
+  color: #007bff;
+}
+
+/* تنسيق المحتوى */
+.tab-content {
+  margin-top: 20px; /* مسافة بين التبويبات والمحتوى */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 80%; /* عرض المحتوى */
+  max-width: 800px; /* الحد الأقصى للعرض */
+  text-align: center; /* توسيط النص داخل المحتوى */
+  margin: 0 auto; /* توسيط المحتوى أفقيًا */
+}

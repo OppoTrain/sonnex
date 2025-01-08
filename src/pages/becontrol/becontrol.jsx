@@ -4,7 +4,7 @@ import "./becontrol.css";
 
 import Footer from "../../components/footer/footer";
 import NavBar from "../../components/navBar/navBar";
-import becontrolImage from "../../assets/png blue_.png"; // استيراد الصورة
+import becontrolImage from "../../assets/pink2.jpg"; // استيراد الصورة
 
 function Becontrol() {
   return (

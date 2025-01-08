@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faGlobe } from "@fortawesome/free-solid-svg-icons";
-import img from "../../assets/logo.png";
+import img from "../../assets/green-01.png";
 import "./Navbar.css";
 import { useTranslation } from "react-i18next";
 import { Dropdown } from "react-bootstrap";
@@ -52,7 +52,9 @@ function NavBar() {
 
           <div className="spacer"></div>
 
-          <button className="button">{t("product")}</button>
+          <button className="button" onClick={() => navigate("/products")}>
+            {t("product")}
+          </button>
 
           <div className="spacer"></div>
 

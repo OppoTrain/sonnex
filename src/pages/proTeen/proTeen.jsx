@@ -4,7 +4,7 @@ import "./proTeen.css";
 
 import Footer from "../../components/footer/footer";
 import NavBar from "../../components/navBar/navBar";
-import teenImage from "../../assets/png blue_.png"; // استيراد الصورة
+import teenImage from "../../assets/pink2.jpg"; // استيراد الصورة
 
 function ProTeen() {
   return (

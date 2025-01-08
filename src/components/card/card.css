@@ -1,0 +1,93 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Card Container */
+.card {
+  width: 370px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  text-align: center; /* النصوص تكون محاذاة للمنتصف */
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Header */
+.card-header {
+  margin-bottom: 20px;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 2rem; /* حجم أكبر للعناوين */
+  font-weight: bold;
+  color: #2c3e50;
+  text-transform: uppercase; /* جعل النص بأحرف كبيرة */
+  letter-spacing: 2px; /* زيادة التباعد بين الحروف */
+  border-bottom: 2px solid #ffccd5; /* خط زهري أنيق تحت العنوان */
+  display: inline-block; /* يظهر الخط بطول العنوان فقط */
+  padding-bottom: 5px;
+}
+
+/* Card Description */
+.card-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  flex: 1; /* يضمن أن النص يأخذ كل المساحة المتبقية */
+  margin-bottom: 20px; /* مسافة إضافية عن الزر */
+}
+
+/* Card Footer */
+.card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Button Style */
+.card-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ffccd5;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.card-link:hover {
+  background-color: #ffa7b0;
+  transform: translateY(-3px);
+}

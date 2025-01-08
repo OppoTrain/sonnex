@@ -1,0 +1,71 @@
+/* صفحة المنتجات */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* تغطية الصفحة بالكامل */
+  justify-content: space-between; /* توزيع العناصر لتكون بين الأعلى والأسفل */
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* قسم المنتجات */
+.products-container {
+  display: flex;
+  flex-wrap: wrap; /* السماح بعرض الكاردز على عدة صفوف */
+  justify-content: center; /* توسيط الكاردز أفقيًا */
+  gap: 20px; /* مسافة بين الكاردز */
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* كارد المنتج */
+.product-card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* صورة المنتج */
+.product-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* اسم المنتج */
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* الفوتر */
+footer {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

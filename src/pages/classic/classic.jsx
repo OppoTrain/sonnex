@@ -4,7 +4,7 @@ import "./classic.css";
 
 import Footer from "../../components/footer/footer";
 import NavBar from "../../components/navBar/navBar";
-import classicImage from "../../assets/png blue_.png"; // استيراد الصورة
+import classicImage from "../../assets/purple.jpg"; // استيراد الصورة
 
 function Classic() {
   return (

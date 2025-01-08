@@ -16,7 +16,9 @@ export default function Footer() {
 
   // دوال التوجيه
   const handleNavigation = (item) => {
-    switch (item) {
+    const trimmedItem = item.trim(); // إزالة المسافات الإضافية
+
+    switch (trimmedItem) {
       case "Contact":
       case "اتصل بنا":
         navigate("/contact");
@@ -26,19 +28,19 @@ export default function Footer() {
         navigate("/about-us");
         break;
       case "Sonnex Ultra-thin":
-      case "سونكس ألترا ثين":
+      case "فوط صحية فائقة الرقة":
         navigate("/ultra-thin");
         break;
       case "Sonnex teen":
-      case "سونكس تين":
+      case "فوط صحية للمراهقات":
         navigate("/pro-teen");
         break;
       case "Sonnex Classic":
-      case "سونكس كلاسيك":
+      case "فوط صحية كلاسيكية":
         navigate("/classic");
         break;
       case "Sonnex Mom":
-      case "سونكس موم":
+      case "فوط صحية للامهات":
         navigate("/mom");
         break;
       case "Sonnex Becontrol":

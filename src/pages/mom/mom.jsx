@@ -4,7 +4,7 @@ import "./mom.css";
 
 import Footer from "../../components/footer/footer";
 import NavBar from "../../components/navBar/navBar";
-import momImage from "../../assets/png blue_.png"; // استيراد الصورة
+import momImage from "../../assets/pink2.jpg"; // استيراد الصورة
 
 function Mom() {
   return (

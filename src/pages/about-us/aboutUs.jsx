@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutUs.css";
 import Footer from "../../components/footer/footer";
 import Nav from "../../components/navBar/navBar";
-import aboutUsImage from "../../assets/png-01.png"; // استيراد الصورة
+import aboutUsImage from "../../assets/logo.png"; // استيراد الصورة
 
 const AboutUs = () => {
   return (
