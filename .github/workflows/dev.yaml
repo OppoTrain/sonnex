@@ -19,6 +19,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: install i18
+        run: npm i vite-plugin-i18n-resources
+
       - name: Disable ESLint
         run: echo "eslint-disable" > .eslintignore
 
