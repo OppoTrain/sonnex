@@ -19,9 +19,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: install i18
-        run: npm i i18next
-
       - name: Disable ESLint
         run: echo "eslint-disable" > .eslintignore
 
