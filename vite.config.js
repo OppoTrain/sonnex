@@ -9,7 +9,7 @@ export default defineConfig({
  },
  build: {
   rollupOptions: {
-        external: ['react-i18next','i18next','i18next-browser-languagedetector']
+        external: ['react-i18next','i18next','i18next-browser-languagedetector', '@fortawesome/react-fontawesome']
       
   }
 }
