@@ -5,6 +5,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-   include: ['react-i18next', 'i18next'] //add this line here.
+   include: ['react-i18next', 'i18next'] 
  },
+ build: {
+  rollupOptions: {
+        external: ['i18next']
+      
+  }
+}
 })
