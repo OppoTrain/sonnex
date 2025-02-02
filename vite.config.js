@@ -5,11 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-   include: ['react-i18next', 'i18next'] 
+   include: ['react-i18next', 'i18next','i18next-browser-languagedetector'] 
  },
  build: {
   rollupOptions: {
-        external: ['i18next']
+        external: ['react-i18next','i18next','i18next-browser-languagedetector']
       
   }
 }
