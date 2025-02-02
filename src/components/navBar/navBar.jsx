@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import img from "../../assets/logo.png";
-import "./navbar.css";
+import "./navBar.css";
 import { useTranslation } from "react-i18next";
 import { Dropdown } from "react-bootstrap";
 import { useNavigate } from "react-router-dom"; // استيراد useNavigate
@@ -13,7 +13,7 @@ import arabicFlag from "../../assets/pl.png";
 
 function NavBar() {
   const { t, i18n } = useTranslation();
-  const navigate = useNavigate(); // استخدام useNavigate للتوجيه
+  const navigate = useNavigate(); 
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
