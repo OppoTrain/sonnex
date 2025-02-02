@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import img from "../../assets/logo.png";
-import "./Navbar.css";
+import "./navbar.css";
 import { useTranslation } from "react-i18next";
 import { Dropdown } from "react-bootstrap";
 import { useNavigate } from "react-router-dom"; // استيراد useNavigate
