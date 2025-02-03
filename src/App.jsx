@@ -8,10 +8,10 @@ import {
   Routes,
   Route,
   BrowserRouter,
-} from "react-router-dom"; // فقط هنا
+} from "react-router-dom"; 
 
 import HomePage from "./pages/home-page/homePage";
-import "./i18n"; // استيراد إعدادات الترجمة
+import "./i18n"; 
 
 function App() {
   return (

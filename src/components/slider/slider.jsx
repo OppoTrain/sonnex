@@ -1,5 +1,6 @@
 import React from "react";
 import bella1 from "../../assets/pink2.jpg";
+import "./i18n"; 
 import { useTranslation } from "react-i18next";
 import "./slider.css";
 
