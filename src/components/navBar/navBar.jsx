@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import img from "../../assets/logo.png";
 import "./navBar.css";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import { Dropdown } from "react-bootstrap";
 import { useNavigate } from "react-router-dom"; // استيراد useNavigate
 

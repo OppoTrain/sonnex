@@ -1,6 +1,6 @@
 import React from "react";
 import bella1 from "../../assets/pink2.jpg"; 
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import "./slider.css";
 
 export default function Slider() {
