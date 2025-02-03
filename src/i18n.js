@@ -1,8 +1,9 @@
 import i18n from "i18next";
 //import { initReactI18next } from 'react-i18next';
-import { initReactI18next } from "../node_modules/react-i18next"
+//import { initReactI18next } from "./node_modules/react-i18next"
 //import i18n from 'https://cdn.jsdelivr.net/npm/i18n@0.15.1/+esm'
 //import { useTranslation } from 'react-i18next';
+import { initReactI18next } from "react-i18next/initReactI18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 
